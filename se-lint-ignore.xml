@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="logo.svg">
+		<ignore>
+			<code>x-004</code>
+			<reason>Custom logo.</reason>
+		</ignore>
+	</file>
+	<file path="logo.svg">
+		<ignore>
+			<code>f-005</code>
+			<reason>Custom logo.</reason>
+		</ignore>
+	</file>
+	<file path="logo.svg">
+		<ignore>
+			<code>x-014</code>
+			<reason>Custom logo.</reason>
+		</ignore>
+	</file>
+	<file path="content.opf">
+		<ignore>
+			<code>f-002</code>
+			<reason>Uncopyright consolidated into imprint.</reason>
+		</ignore>
+	</file>
+	<file path="content.opf">
+		<ignore>
+			<code>m-009</code>
+			<reason>Non-SE hosted.</reason>
+		</ignore>
+	</file>
+	<file path="content.opf">
+		<ignore>
+			<code>m-023</code>
+			<reason>Non-SE hosted.</reason>
+		</ignore>
+	</file>
+	<file path="content.opf">
+		<ignore>
+			<code>m-006</code>
+			<reason>Non-standard Gutenberg reference.</reason>
+		</ignore>
+	</file>
+	<file path="imprint.xhtml">
+		<ignore>
+			<code>s-012</code>
+			<reason>intended for appearance</reason>
+		</ignore>
+	</file>
+	<file path="imprint.xhtml">
+		<ignore>
+			<code>m-006</code>
+			<reason>refers to a page within a larger work</reason>
+		</ignore>
+	</file>
+	<file path="list.svg">
+		<ignore>
+			<code>x-005</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="list.svg">
+		<ignore>
+			<code>x-014</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="page.svg">
+		<ignore>
+			<code>x-005</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="page.svg">
+		<ignore>
+			<code>x-014</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="wikipedia.svg">
+		<ignore>
+			<code>x-005</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="wikipedia.svg">
+		<ignore>
+			<code>x-014</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="wikisource.svg">
+		<ignore>
+			<code>x-005</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="wikisource.svg">
+		<ignore>
+			<code>x-014</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="project-gutenberg.svg">
+		<ignore>
+			<code>x-005</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="project-gutenberg.svg">
+		<ignore>
+			<code>x-014</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="epub.svg">
+		<ignore>
+			<code>x-005</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="epub.svg">
+		<ignore>
+			<code>x-014</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="amazon.svg">
+		<ignore>
+			<code>x-005</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="amazon.svg">
+		<ignore>
+			<code>x-014</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="github.svg">
+		<ignore>
+			<code>x-005</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="github.svg">
+		<ignore>
+			<code>x-014</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="google.svg">
+		<ignore>
+			<code>x-005</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="google.svg">
+		<ignore>
+			<code>x-014</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="hathitrust.svg">
+		<ignore>
+			<code>x-005</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="hathitrust.svg">
+		<ignore>
+			<code>x-014</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="internet-archive.svg">
+		<ignore>
+			<code>x-005</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="internet-archive.svg">
+		<ignore>
+			<code>x-014</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="kobo.svg">
+		<ignore>
+			<code>x-005</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="kobo.svg">
+		<ignore>
+			<code>x-014</code>
+			<reason>web use</reason>
+		</ignore>
+	</file>
+	<file path="titlepage.svg">
+		<ignore>
+			<code>s-003</code>
+			<reason>special case, reader</reason>
+		</ignore>
+	</file>
+	<file path="nyarlathotep.xhtml">
+		<ignore>
+			<code>s-033</code>
+			<reason>mixed-language document</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
