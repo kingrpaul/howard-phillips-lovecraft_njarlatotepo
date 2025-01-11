@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
+	<file path="colophon.xhtml">
+		<ignore>
+			<code>m-035</code>
+			<reason>custom imprint</reason>
+		</ignore>
+	</file>
+	<file path="imprint.xhtml">
+		<ignore>
+			<code>m-037</code>
+			<reason>custom imprint</reason>
+		</ignore>
+	</file>
 	<file path="uncopyright.xhtml">
 		<ignore>
 			<code>f-006</code>
@@ -10,24 +22,6 @@
 		<ignore>
 			<code>s-022</code>
 			<reason>translated contents</reason>
-		</ignore>
-	</file>
-	<file path="logo.svg">
-		<ignore>
-			<code>x-004</code>
-			<reason>Custom logo.</reason>
-		</ignore>
-	</file>
-	<file path="logo.svg">
-		<ignore>
-			<code>f-005</code>
-			<reason>Custom logo.</reason>
-		</ignore>
-	</file>
-	<file path="logo.svg">
-		<ignore>
-			<code>x-014</code>
-			<reason>Custom logo.</reason>
 		</ignore>
 	</file>
 	<file path="content.opf">
@@ -48,22 +42,16 @@
 			<reason>Non-standard Gutenberg reference.</reason>
 		</ignore>
 	</file>
-	<file path="imprint.xhtml">
+	<file path="colophon.xhtml">
 		<ignore>
 			<code>s-012</code>
 			<reason>intended for appearance</reason>
 		</ignore>
 	</file>
-	<file path="imprint.xhtml">
+	<file path="colophon.xhtml">
 		<ignore>
 			<code>m-006</code>
 			<reason>refers to a page within a larger work</reason>
-		</ignore>
-	</file>
-	<file path="titlepage.svg">
-		<ignore>
-			<code>s-003</code>
-			<reason>special case, reader</reason>
 		</ignore>
 	</file>
 	<file path="nyarlathotep.xhtml">
@@ -72,4 +60,39 @@
 			<reason>mixed-language document</reason>
 		</ignore>
 	</file>
+
+	<!-- SVG FILES -->
+	<file path="logo.svg">
+		<ignore>
+			<code>x-004</code>
+			<reason>Custom logo.</reason>
+		</ignore>
+	</file>
+	<file path="logo.svg">
+		<ignore>
+			<code>f-005</code>
+			<reason>Custom logo.</reason>
+		</ignore>
+	</file>
+	<file path="logo.svg">
+		<ignore>
+			<code>x-014</code>
+			<reason>Custom logo.</reason>
+		</ignore>
+	</file>
+	<file path="titlepage.svg">
+		<ignore>
+			<code>s-003</code>
+			<reason>special case, reader</reason>
+		</ignore>
+	</file>
+
+	<!-- DISTRIBUTION FILES -->
+	<file path="*.*">
+		<ignore>
+			<code>f-001</code>
+			<reason>distribution files</reason>
+		</ignore>
+	</file>
+	
 </se-lint-ignore>

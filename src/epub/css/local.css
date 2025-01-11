@@ -1,13 +1,24 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-#uncopyright{
-	text-align: center;
+/* IMPRINT */
+section[epub|type~="imprint"] img {
+	display: block;
+	height: 4em;
+    width: auto;
+	margin: 0 auto;
 }
 
-#uncopyright img{
+/* COLOPHON  */
+
+
+/* UNCOPYRIGHT  */
+section[epub|type~="copyright-page"] {
+	text-align: center;
+}
+section[epub|type~="copyright-page"] img{
 	display: block;
-	margin: 1em auto;
+	width:50%;
 	max-width: 40em;
-	width: 50%;
+	margin: 1em auto;
 }
